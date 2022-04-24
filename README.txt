@@ -13,11 +13,14 @@ The .sql file "tweets_db" creates a new database called "twitter" and a Table "T
 
 ## Start the Python/Kafka producer with the topic you want to ingest. Ex. Uber
 
+## ACCESS TOKENS HAVE BEEN REVOKED FOR THIS FILE, YOU WILL HAVE TO EDIT THESE WITH YOUR OWN IN ORDER FOR YOuR CODE TO RUN
+
 python3 twitter_producer.py uber -b localhost:9092 -t twitter
 
 ## Run the Spark Notebook
 
 ## Query the data from MariaDB using your visualization application of choice by connecting to the Database.
+
 
 ## License
 [MIT](https://twittergroupF.com/licenses/mit/)

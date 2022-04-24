@@ -1,0 +1,23 @@
+# Twitter Sentiment Analysis on Streaming Data with Apache Spark and Kafka
+
+## Instructions
+
+Start all necessary services:
+
+sudo service mariadb start
+sudo service kafka start
+
+## Create the Database and Table where you want to load the data in MariaDB
+
+The .sql file "tweets_db" creates a new database called "twitter" and a Table "Tweets"
+
+## Start the Python/Kafka producer with the topic you want to ingest. Ex. Uber
+
+python3 twitter_producer.py uber -b localhost:9092 -t twitter
+
+## Run the Spark Notebook
+
+## Query the data from MariaDB using your visualization application of choice by connecting to the Database.
+
+## License
+[MIT](https://twittergroupF.com/licenses/mit/)

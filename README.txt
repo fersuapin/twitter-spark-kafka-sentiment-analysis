@@ -21,6 +21,3 @@ python3 twitter_producer.py uber -b localhost:9092 -t twitter
 
 ## Query the data from MariaDB using your visualization application of choice by connecting to the Database.
 
-
-## License
-[MIT](https://twittergroupF.com/licenses/mit/)
